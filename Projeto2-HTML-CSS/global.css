@@ -1,0 +1,92 @@
+/* global.css: */
+
+/* Variáveis de Cores */
+:root {
+    --cor-primaria: #6f42c1; 
+    --cor-primaria-escuro: #5a32a3;
+    --cor-fundo: #f3e5f5;        
+    --cor-texto: #333;
+    --cor-branco: #ffffff;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.container {
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: sticky; /* Cola no topo */
+    top: 0;
+    z-index: 100;
+}
+
+.cabecalho h1 {
+    margin: 5px 0 0 0;
+    font-size: 24px;
+}
+
+/* Logo no Topo */
+.logo-topo {
+    width: 95px;
+    height: auto;
+    background-color: var(--cor-branco);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+/* Navegação */
+.cabecalho nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cabecalho nav a {
+    color: var(--cor-branco);
+    text-decoration: none;
+    padding: 8px 14px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cabecalho nav a:hover {
+    background-color: rgba(255,255,255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Botão de Entrar */
+.btn-login-nav {
+    background-color: var(--cor-branco) !important;
+    color: var(--cor-primaria) !important;
+    border: 2px solid var(--cor-branco);
+}
+
+.btn-login-nav:hover {
+    background-color: #e1bee7 !important; /* Lilás */
+}
+
+/* Links/Seção do Menu Destacado */
+.cabecalho nav a.ativo {
+    background-color: white;
+    color: #6f42c1; /* Roxo */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
