@@ -15,4 +15,5 @@ O ResgataPet é uma solução inovadora desenvolvida para conectar animais aband
 
 • Luiz Gustavo Barbosa Machado
 
-Link dos Slides: https://www.canva.com/design/DAG6NbecLCw/XZWfO7uPZ07_VWt96kF4nw/view?utm_content=DAG6NbecLCw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h99a446ad2e
+Link dos Slides: 
+https://www.canva.com/design/DAG6NbecLCw/XZWfO7uPZ07_VWt96kF4nw/view?utm_content=DAG6NbecLCw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h99a446ad2e
